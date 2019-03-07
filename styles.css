@@ -1,0 +1,212 @@
+body{
+ background-color: beige;
+}
+header{
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-family: "Courier";
+    font-size: 50px;
+    padding: 20px;
+
+}
+#listaMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li a{
+    font-family: "Tw Cen MT";
+    font-size: 18px;
+    float: right;
+    display: flow-root;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+li a:hover {
+    background-color: #111111;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: Courier;
+    border: 2px solid gray;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+
+}
+
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+#imagenInicio {
+    float: left;
+    width: 30%;
+    height: 100%; /* only for demonstration, should be removed */
+    padding: 20px;
+}
+#textoInicio {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    height: 100%; /* only for demonstration, should be removed */
+}
+#datosP{
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+.perfil{
+    font-size: 17px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+}
+
+#textoConocimientos {
+    float: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%; /* only for demonstration, should be removed */
+}
+
+dt{
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+
+}
+#listaConocimientos{
+    font-size: 17px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.lista1 img{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.lista2{
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding: 20px;
+
+}
+
+#contacto{
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input{
+    font-size: 14px;
+    height: 35px;
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom; 10px;
+}
+
+.contactos{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact{
+    padding: 10px;
+    margin: 10px;
+}
+
+#fecha{
+    width: 300px;
+    color: gray;
+}
+
+.boton{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.boton input{
+    width: 200px;
+}
+#comment{
+    font-size: 14px;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+}
+footer{
+
+    background-color: black;
+   display: flex;
+    justify-content: space-around;
+    widows: 100%;
+    height: 90px;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+
+
+}
+.glosary{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Courier;
+
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.tabla1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+}
+.celda{
+    text-align: center;
+}
+.glosa a{
+    font-family: "Tw Cen MT";
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.glosa{
+    text-align: center;
+}
