@@ -17,23 +17,36 @@
       <li><img src = "Imagenes/logo.png" width="200px"></li>
     </ol>
     <br>
-    <div class= "container">
-      <section>
-        <h1>¿Quién soy?</h1>
-        <nav id = "imagenInicio">
-          <img class="img-responsive" id = perfil src="Imagenes/animacion.gif" style = "width: auto, height: auto">
-        </nav>
-        <article id = "textoInicio">
-        <br>
-        <p id = "datosP"><strong>Brayan Stevenson Arias Vargas</strong><br>
-        </p>
-        <p class = "perfil">
-            <br>
-            Estudiante de Ingeniería de Sistemas de la UFPS con conocmientos de desarrollo en Java, Programación Web
-             y Bases de Datos. Me apasiona el desarrollo de Software, la Mineria de Datos y el desarrollo de Front-end
-        </p>
-        </article>
-    </section>
+    <div class="container">
+    <h1>No nos llames, nosotros te llamamos</h1>
+    <div class = "contactos">
+        <form id = "contacto" action="bases.php" method="POST">
+
+            <div class = "contact">
+
+                <span>¿Cual es tu nombre? </span>
+                <input name="name" type="text" placeholder= "Nombre" style="float: right" required><br> <br>
+
+                <span>Dame tu e-mail </span>
+                <input name="email" type="email" placeholder= "E-mail" style="float: right" required> <br> <br>
+
+                <span>Digita tu número de celular </span>
+                <input name="tel" type="tel" placeholder= "Número de celular" style="float: right" pattern="^[3]\d{9}$"> <br> <br>
+
+                <span>¿Algo para decir?</span>
+                <textarea id = comment name="comments" type="text"  style="float: right" placeholder="Comentarios"></textarea> <br> <br> <br>
+
+                <div class = "boton">
+                    <input type="reset" class = "btn btn-danger" name = "borrar" value="BORRAR">
+
+                    <input type = "submit" class = "btn btn-success" name = "enviar"  value="ENVIAR">
+
+                </div>
+                 <br> <br>
+            </div>
+
+        </form>
+    </div>
     </div>
     <footer class = "links">
         <a href= "http://www.facebook.com/bsav157" target="_blank"><img src="Imagenes/facebook.png" width=50px></a>
